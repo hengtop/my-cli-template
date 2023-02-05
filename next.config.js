@@ -5,7 +5,7 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, './')],
   },
- // 配置代理或者跨域代理
+  // 配置代理或者跨域代理
   async rewrites() {
     return {
       fallback: [
